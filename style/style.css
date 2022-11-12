@@ -35,16 +35,19 @@ body {
   margin: 10px 0;
 }
 
-header a {
-  text-decoration: none;
-  color: #fff;
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 20px;
-  padding: 20px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */

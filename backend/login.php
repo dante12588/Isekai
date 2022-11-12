@@ -1,6 +1,7 @@
 <?php 
 
 include 'database.php';
+$q = "SELECT * FROM users";
 
 session_start();
 
@@ -19,5 +20,6 @@ if( !empty($_POST['password']) and !empty($_POST['login'])){
 
 }
 
+$conn -> close();
 header("Location: /php");
 
